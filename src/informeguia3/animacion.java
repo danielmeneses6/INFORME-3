@@ -38,7 +38,7 @@ public class animacion extends JFrame {
         cargarImagen();
         crearGUI();
         crearTimer();
-        //setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         pack();
         setLocationRelativeTo(null);
         setVisible(true);
